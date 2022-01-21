@@ -13,7 +13,6 @@ Future<void> main() async {
 }
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  isviewed != 0 ? OnboardingPage() : HomePage(),
+      home: isviewed != 0 ? OnboardingPage() : HomePage(),
     );
   }
 }
