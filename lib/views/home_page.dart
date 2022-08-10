@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
           title: Text('BooksHub'),
           elevation: 0,
           centerTitle: true,
-          actions: [IconButton(onPressed: (){}, icon: Icon(Icons.more_horiz))],
+          actions: [IconButton(onPressed: () {}, icon: Icon(Icons.more_horiz))],
         ),
         body: SafeArea(
           child: Padding(
